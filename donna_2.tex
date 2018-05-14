@@ -24,6 +24,7 @@
 
 
 \documentclass[]{winter-resume-openfont}
+\usepackage{graphicx}
 
 
 \begin{document}
@@ -46,7 +47,9 @@
 %\namesection{}{Peter B. Winter, Ph.D.}
 
 \begin{flushleft}
-\myname{Donna J. Bridge, Ph.D.}
+\myname{Donna J. Bridge, Ph.D. 
+%\includegraphics[scale=0.07]{brain}
+}
 
 
 \end{flushleft}
@@ -64,6 +67,7 @@
 \links{
 \custombold{Website:} \href{http://www.donnajobridge.com}{http://www.donnajobridge.com}  \\
 \custombold{Professional:} \href{https://bit.ly/2FiAQVO}{https://bit.ly/2FiAQVO}
+\custombold{GitHub:} \href{https://github.com/donnajobridge}{https://github.com/donnajobridge}
 }
 \end{flushleft}
 \end{minipage}
@@ -87,17 +91,21 @@
 %%%%%%%%%%%%%%%%%%%%
 % set size of column 1
 \begin{minipage}[t]{0.65\textwidth}
+\sectionsep
+\sectionsep
 
-\section{\underline{Goal}}
+\section{\underline{Objective}}
 \sectionsep
-\location{I aim to leverage my 10+ years of research experience to join a team that utilizes data to design high-quality, innovative solutions. I thrive in a team-oriented environment that values analytical and creative problem solving. My comprehensive background demonstrates that I am adaptive to new approaches, environments, and ways of thinking, and that I am able to quickly synthesize complex knowledge and follow threads in data to test novel hypotheses. I am an expert at balancing low-level details with overarching project goals.}
-\sectionsep
-\sectionsep
-\sectionsep
-\sectionsep
+
+\customboldB{I aim to join a team-oriented environment that tackles complex challenges \\using analytic and creative problem-solving} \\
+\textbullet{} 10+ years creating high-quality research designs in data-intensive field \\
+\textbullet{} End-to-end project implementation
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sectionsep
+\sectionsep
 \section{\underline{Experience}}
 \sectionsep
 \runsubsection{Research Assistant Professor} \\
@@ -115,26 +123,26 @@
 \item 10+ peer-reviewed publications
 \item 40+ conference presentations
 \item Awarded 2 NIH grants totaling in > \$1 million in the past 2 years
-\item Fully self-funded for 10 years (9 grants)
+\item Fully self-funded for 10 years (10 grants)
 \end{tightemize}
 
 \location{Human Subjects Research}
 \begin{tightemize}
-\item Conducted and ran 30+ studies with 500+ in-person participants
-\item Created and adapted interactive memory tasks for specific populations
+\item Conducted 30+ studies with 500+ in-person participants
+\item Iteratively created and adapted interactive memory tasks for specific populations
 \end{tightemize}
 
 
 \location{Innovation}
 \begin{tightemize}
-\item Pioneered approach to simultaneously obtain data with 3+ techniques linking human behavior, eye movements, and brain recordings
-\item Developed technique to infer memory based on viewing behavior
+\item Pioneered approach to merge 3+ data sources collected simultaneously
+\item Developed technique using eye movements to predict memory \& brain activity 
 \end{tightemize}
 
 
 \location{Team Lead | Mentorship}
 \begin{tightemize}
-\item Led and managed teams of 3-6 people with diverse levels of skills \& experience
+\item Led and managed teams of 3-6 people with diverse skill levels \& experience
 \item Mentored and trained 5+ students/postdocs
 \end{tightemize}
 
@@ -148,17 +156,9 @@
 
 \location{Clear Communication}
 \begin{tightemize}
-\item Oral presentations to specialized audiences and general public
+\item Delivered oral presentations to specialized audiences and general public
 \item Conducted interviews with local and national media (NPR, LA Times, CNN, WTTW, Chicago Tonight)
 \end{tightemize}
-
-\sectionsep
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Education
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -168,16 +168,16 @@
 \sectionsep
 \section{\underline{Honors \& Awards}}
 \sectionsep
-%\begin{description}[leftmargin=!,labelwidth=\widthof{\bfseries National Research and Service Award (NRSA Fellowship)}]
-%\item[National Research and Service Award (NRSA Fellowship)]  2014 – 2015
-%\item[Mechanisms of Aging and Dementia Fellowship] 2012 – 2014
-%\item[Human Cognition Fellowship]  2010 – 2012
-%\item[Cognitive Science Graduate Fellowship]  2009 – 2010
-%\item[Outstanding Research Achievement Award]  2006
-%\end{description}
+\begin{description}[leftmargin=!,labelwidth=\widthof{\bfseries National Research and Service Award (NRSA Fellowship)}]
+\item[National Research and Service Award (NRSA Fellowship)]  2014 – 2015
+\item[Mechanisms of Aging and Dementia Fellowship] 2012 – 2014
+\item[Human Cognition Fellowship]  2010 – 2012
+\item[Cognitive Science Graduate Fellowship]  2009 – 2010
+\item[Outstanding Research Achievement Award]  2006
+\end{description}
 
-National Research and Service Award (NRSA Fellowship), Mechanisms of Aging and Dementia Fellowship,
-Human Cognition Fellowship, Cognitive Science Graduate Fellowship, Outstanding Research Achievement Award
+%National Research and Service Award (NRSA Fellowship), Mechanisms of Aging and Dementia Fellowship,
+%Human Cognition Fellowship, Cognitive Science Graduate Fellowship, Outstanding Research Achievement Award
 
 \end{minipage} 
 \hfill
@@ -186,10 +186,14 @@ Human Cognition Fellowship, Cognitive Science Graduate Fellowship, Outstanding R
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\sectionsep
 \sectionsep
 
+%\includegraphics[scale=0.07]{brain}
+
 \section{\underline{Skills}}
-\sectionsep
 \sectionsep
 \subsection{Data Analysis}
 \location{Statistical Hypothesis Testing}
@@ -215,30 +219,20 @@ Human Cognition Fellowship, Cognitive Science Graduate Fellowship, Outstanding R
 \sectionsep
 \subsection{Programming}
 \location{Computerized Memory Experiments}
-\textbullet{}  Presentation Neurolobehavioral Systems Inc \\
+\textbullet{}  Presentation Neurobehavioral Systems Inc. \\
 \sectionsep
  
 
 \location{Integrated Data Pipelines}
-\textbullet{}  For fMRI, EEG, behavior, and eye-tracking data \\
+\textbullet{}  fMRI, EEG, behavior, and eye-tracking data \\
 \sectionsep
 \textbullet{}  MATLAB, FieldTrip, AFNI, EEGlab \\
 \sectionsep
 \textbullet{}  Python + Pandas familiarity \\
-\sectionsep
-\sectionsep
 
-%\section{\underline{Honors \& Awards}}
-%\sectionsep
-%\textbullet{}National Research and Service Award (NRSA Fellowship) \\
-%\sectionsep
-%\textbullet{}Mechanisms of Aging and Dementia Fellowship \\
-%\textbullet{}Human Cognition Fellowship \\
-%\sectionsep
-%\textbullet{}Cognitive Science Graduate Fellowship \\
-%\sectionsep
-%\textbullet{}Outstanding Research Achievement Award \\
-%\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \sectionsep
 \sectionsep
 \section{\underline{Education \& Training}}
@@ -264,7 +258,10 @@ Cognitive Neuroscience }
 \sectionsep
 
 
+\begin{center}
+\includegraphics[scale=0.1]{brain}
 
+\end{center}
 \end{minipage} 
 
 
